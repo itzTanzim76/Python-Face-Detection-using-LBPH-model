@@ -14,7 +14,7 @@ Using python to detect faces by LBPH and Haar Cascade algorithm. A project I mad
 Open CV: pip install opencv-contrib-python 
 3.	After running the data_collection.py, it will ask for argument namely which user you want to configure, how many pictures you want to take etc. Bash the following code in the Terminal
 ##
-**python data_collection.py –user “USER NAME” –cam 0 –per-pose 125**
+<h1>**python data_collection.py –user “USER NAME” –cam 0 –per-pose 125**</h1>
 ##
 
 There are also more commands that can be changed to make running the project with your control.
