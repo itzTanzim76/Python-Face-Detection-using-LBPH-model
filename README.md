@@ -19,24 +19,28 @@ Open CV: pip install opencv-contrib-python
 
 There are also more commands that can be changed to make running the project with your control.
 Simply add (“—interval 0.5, --min-size 80,”) Check out more details in the following section
-# ===============================
-# Main – Capture + Auto-train
-# ===============================
+
+```markdown
+<details>
+<summary><strong>Main – Capture + Auto-train</strong></summary>
+
+```python
 def main():
     parser = argparse.ArgumentParser(
         description="Offline face data collection (tracking) + optional full-frame saves + auto-train LBPH."
     )
-    parser.add_argument("--user", required=True, help="User label (folder name).")
-    parser.add_argument("--cam", type=int, default=0, help="Camera index.")
-    parser.add_argument("--per-pose", type=int, default=25, help="Images to capture.")
-    parser.add_argument("--interval", type=float, default=0.05, help="Seconds between saves.")
-    parser.add_argument("--min-size", type=int, default=90, help="Min face size (px).")
-    parser.add_argument("--blur-thresh", type=float, default=18.0, help="Min Laplacian variance.")
-    parser.add_argument("--brightness-min", type=float, default=45.0, help="Min brightness.")
-    parser.add_argument("--tracker", choices=["none", "csrt", "kcf"], default="csrt", help="Stabilize bounding box.")
-    parser.add_argument("--bypass-quality", action="store_true", help="Save even if quality checks fail.")
-    parser.add_argument("--no-train", action="store_true", help="Do not train after capture (default trains).")
-    # ===============================
+
+    parser.add_argument("--user", required=True, help="User label (folder name)")
+    parser.add_argument("--cam", type=int, default=0, help="Camera index")
+    parser.add_argument("--per-pose", type=int, default=25, help="Images to capture")
+    parser.add_argument("--interval", type=float, default=0.05, help="Seconds between saves")
+    parser.add_argument("--min-size", type=int, default=90, help="Min face size (px)")
+    parser.add_argument("--blur-thresh", type=float, default=18.0, help="Min Laplacian variance")
+    parser.add_argument("--brightness-min", type=float, default=45.0, help="Min brightness")
+    parser.add_argument("--tracker", choices=["none", "csrt", "kcf"], default="csrt", help="Stabilize bounding box")
+    parser.add_argument("--bypass-quality", action="store_true", help="Save even if quality checks fail")
+    parser.add_argument("--no-train", action="store_true", help="Do not train after capture (default trains)")
+```
 
 
     
