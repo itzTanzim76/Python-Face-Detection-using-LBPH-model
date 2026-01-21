@@ -39,6 +39,7 @@ def main():
     parser.add_argument("--tracker", choices=["none", "csrt", "kcf"], default="csrt", help="Stabilize bounding box")
     parser.add_argument("--bypass-quality", action="store_true", help="Save even if quality checks fail")
     parser.add_argument("--no-train", action="store_true", help="Do not train after capture (default trains)")
+```
 </details>
 
     
