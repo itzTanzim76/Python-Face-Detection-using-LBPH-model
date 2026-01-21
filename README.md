@@ -57,6 +57,8 @@ def main():
 
 
 9.	A new camera will popup and should detect your face with an average accuracy of above 60%. With better light conditions and less changes to poses, the accuracy should increase.
+
+
 Applications of this project: 
 The goal of this project was to implement in an offline, low-cost hardware environment for example: cheap face detection systems in universitites.
 **If any problem arises, feel free to contact me :)**
