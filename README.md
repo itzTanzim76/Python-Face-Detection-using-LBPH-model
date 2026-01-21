@@ -21,9 +21,6 @@ There are also more commands that can be changed to make running the project wit
 Simply add (“—interval 0.5, --min-size 80,”) Check out more details in the following section
 
 ```markdown
-<details>
-<summary><strong>Main – Capture + Auto-train</strong></summary>
-
 ```python
 def main():
     parser = argparse.ArgumentParser(
