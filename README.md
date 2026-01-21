@@ -21,7 +21,7 @@ There are also more commands that can be changed to make running the project wit
 Simply add (“—interval 0.5, --min-size 80,”) Check out more details in the following section
 
 <details>
-<summary>Click to view code</summary>
+<summary>##**Click to view code**</summary>
 
 ```python
 def main():
