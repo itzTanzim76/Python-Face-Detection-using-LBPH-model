@@ -13,7 +13,10 @@ Using python to detect faces by LBPH and Haar Cascade algorithm. A project I mad
 2.	The code should run without any problems with the correct python libraries. If any problems specially with opencv, try using 
 Open CV: pip install opencv-contrib-python 
 3.	After running the data_collection.py, it will ask for argument namely which user you want to configure, how many pictures you want to take etc. Bash the following code in the Terminal
+
 **python data_collection.py –user “USER NAME” –cam 0 –per-pose 125**
+
+
 There are also more commands that can be changed to make running the project with your control.
 Simply add (“—interval 0.5, --min-size 80,”) Check out more details in the following section
 # ===============================
@@ -41,8 +44,11 @@ def main():
 5.	After collection of pictures is completed, the LBPH will train and store the data in “model” folder, in an yml and json format. 
 6.	Now use the pic_password.py code and run the code.
 7.	The terminal will again ask for argument and bash the following code in the terminal
+8.	
 python pic_password.py --user "USER NAME" --cam 0
-8.	A new camera will popup and should detect your face with an average accuracy of above 60%. With better light conditions and less changes to poses, the accuracy should increase.
+
+
+10.	A new camera will popup and should detect your face with an average accuracy of above 60%. With better light conditions and less changes to poses, the accuracy should increase.
 Applications of this project: 
 The goal of this project was to implement in an offline, low-cost hardware environment for example: cheap face detection systems in universitites.
 If any problem arises, feel free to contact me :)
