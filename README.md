@@ -20,7 +20,7 @@ Open CV: pip install opencv-contrib-python
 There are also more commands that can be changed to make running the project with your control.
 Simply add (“—interval 0.5, --min-size 80,”) Check out more details in the following section
 
-<details>
+`<details>
 <summary>Click to view code</summary>
 
 ```python
@@ -41,7 +41,7 @@ def main():
     parser.add_argument("--no-train", action="store_true", help="Do not train after capture (default trains)")
 ```
 </details>
-
+`
     
 
 
