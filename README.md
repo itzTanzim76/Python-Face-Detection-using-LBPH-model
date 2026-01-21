@@ -38,7 +38,7 @@ def main():
 
     
 4.	The camera will popup and will take pictures of you based on the parameters set. By default, it takes 125 pictures. 
-5.	After collection of pictures in complete, the LBPH will store the data in “model” folder, in an yml and json format. 
+5.	After collection of pictures is completed, the LBPH will train and store the data in “model” folder, in an yml and json format. 
 6.	Now use the pic_password.py code and run the code.
 7.	The terminal will again ask for argument and bash the following code in the terminal
 python pic_password.py --user "USER NAME" --cam 0
