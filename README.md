@@ -15,13 +15,13 @@ Open CV: pip install opencv-contrib-python
 3.	After running the data_collection.py, it will ask for argument namely which user you want to configure, how many pictures you want to take etc. Bash the following code in the Terminal
 ##
 <h1>python data_collection.py –user “USER NAME” –cam 0 –per-pose 125</h1>
-##
+
 
 There are also more commands that can be changed to make running the project with your control.
 Simply add (“—interval 0.5, --min-size 80,”) Check out more details in the following section
 
 <details>
-<h1><summary>Click to view code</summary></h1>
+<summary>Click to view code</summary>
 
 ```python
 def main():
