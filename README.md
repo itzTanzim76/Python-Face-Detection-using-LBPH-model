@@ -44,11 +44,11 @@ def main():
 5.	After collection of pictures is completed, the LBPH will train and store the data in “model” folder, in an yml and json format. 
 6.	Now use the pic_password.py code and run the code.
 7.	The terminal will again ask for argument and bash the following code in the terminal
-8.	
+ 
 python pic_password.py --user "USER NAME" --cam 0
 
 
-10.	A new camera will popup and should detect your face with an average accuracy of above 60%. With better light conditions and less changes to poses, the accuracy should increase.
+9.	A new camera will popup and should detect your face with an average accuracy of above 60%. With better light conditions and less changes to poses, the accuracy should increase.
 Applications of this project: 
 The goal of this project was to implement in an offline, low-cost hardware environment for example: cheap face detection systems in universitites.
-If any problem arises, feel free to contact me :)
+**If any problem arises, feel free to contact me :)**
