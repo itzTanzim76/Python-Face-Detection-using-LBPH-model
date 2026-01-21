@@ -4,7 +4,10 @@ Using python to detect faces by LBPH and Haar Cascade algorithm. A project I mad
 1.	VS Code
 2.	Python (recommended version 3.10)
 3.	Camera (you can use the built in camera of Laptop or use an external software like Camo Studio connecting your Phone and PC)
-Descriptions with steps:
+
+
+
+**Descriptions with steps:**
 1.	You should always try configuring with **data_collection.py**
 2.	The code should run without any problems with the correct python libraries. If any problems specially with opencv, try using 
 Open CV: pip install opencv-contrib-python 
